@@ -53,7 +53,6 @@ export default class App extends Component {
           </thead>
           <th id="time">{data.map(row =>(<tr>{row.time}</tr>))}</th>
           <div id="table"></div> 
-          <th> <img src=''
         </table>
     )
   }
